@@ -9,6 +9,7 @@
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="img/icon.jfif" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -35,8 +36,7 @@
                             href="#project">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" role="button" data-bs-toggle="false"
-                            href="#services">Services</a>
+                        <a class="nav-link" role="button" data-bs-toggle="false" href="#services">Services</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
@@ -51,7 +51,7 @@
     <section class="jumbotron">
         <div class="container">
             <div class="jumbotron text-center">
-                <img src="img/hero.jfif" alt="" width="200" class="mb-3 rounded img-thumbnail">
+                <img src="img/hero.jfif" alt="" width="200" class="mb-3 rounded img-thumbnail" data-aos="fade-in">
                 <h1 class="display-4">Muhammad Adjie Pradana</h1>
                 <p class="lead">Student | Programmer</p>
             </div>
@@ -69,15 +69,19 @@
         <div class="container">
             <div class="row text-center">
                 <div class="col mb-3">
-                    <h2>About</h2>
+                    <h2 data-aos="fade-in">About</h2>
                 </div>
             </div>
             <div class="row justify-content-center text-center">
-                <div class="col-md-6 fs-5">
-                    <p>Hello! My name is Adjie, an 18-year-old vocational high school student with a strong interest in programming. I enjoy exploring web development, creating projects, and learning new technologies that help me understand how digital products are built.</p>
+                <div class="col-md-6 fs-5" data-aos="fade-left">
+                    <p>Hello! My name is Adjie, an 18-year-old vocational high school student with a strong interest in
+                        programming. I enjoy exploring web development, creating projects, and learning new technologies
+                        that help me understand how digital products are built.</p>
                 </div>
-                <div class="col-md-6 fs-5">
-                    <p>I live in Jagakarsa, South Jakarta, where I spend much of my time practicing coding, building personal projects, and improving my problem-solving skills. I’m excited to keep growing as a developer and work on meaningful ideas in the future.</p>
+                <div class="col-md-6 fs-5" data-aos="fade-right">
+                    <p>I live in Jagakarsa, South Jakarta, where I spend much of my time practicing coding, building
+                        personal projects, and improving my problem-solving skills. I’m excited to keep growing as a
+                        developer and work on meaningful ideas in the future.</p>
                 </div>
             </div>
         </div>
@@ -93,7 +97,7 @@
 
     <!-- project -->
     <section id="project">
-        <div class="container">
+        <div class="container" data-aos="fade-in">
             <div class="row text-center mb-3">
                 <div class="col">
                     <h2>My Projects</h2>
@@ -105,7 +109,8 @@
                         <img src="img/projects/project1.jfif" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Website Development</h5>
-                            <p class="card-text">Creating modern, responsive, and user-friendly websites tailored to personal or business needs.</p>
+                            <p class="card-text">Creating modern, responsive, and user-friendly websites tailored to
+                                personal or business needs.</p>
                             <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
@@ -115,7 +120,8 @@
                         <img src="img/projects/project2.jfif" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Artificial Inteligence</h5>
-                            <p class="card-text">Developing AI-powered solutions for automation, data analysis, and smarter digital processes.</p>
+                            <p class="card-text">Developing AI-powered solutions for automation, data analysis, and
+                                smarter digital processes.</p>
                             <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
@@ -125,7 +131,8 @@
                         <img src="img/projects/project3.jfif" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">IT Consultant</h5>
-                            <p class="card-text">Providing technology consulting to help businesses choose, design, and optimize efficient IT systems.</p>
+                            <p class="card-text">Providing technology consulting to help businesses choose, design, and
+                                optimize efficient IT systems.</p>
                             <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
@@ -135,7 +142,8 @@
                         <img src="img/projects/project4.jfif" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">SEO Optimalization</h5>
-                            <p class="card-text">Improving website visibility on search engines through effective and sustainable SEO techniques.   </p>
+                            <p class="card-text">Improving website visibility on search engines through effective and
+                                sustainable SEO techniques. </p>
                             <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
@@ -145,7 +153,8 @@
                         <img src="img/projects/project5.jfif" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Training Coding</h5>
-                            <p class="card-text">Offering coding training from beginner to advanced levels to help learners improve their programming skills.</p>
+                            <p class="card-text">Offering coding training from beginner to advanced levels to help
+                                learners improve their programming skills.</p>
                             <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
@@ -174,7 +183,11 @@
                 </div>
             </div>
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#DBE2EF" fill-opacity="1" d="M0,288L48,261.3C96,235,192,181,288,170.7C384,160,480,192,576,218.7C672,245,768,267,864,245.3C960,224,1056,160,1152,138.7C1248,117,1344,139,1392,149.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#DBE2EF" fill-opacity="1"
+                d="M0,288L48,261.3C96,235,192,181,288,170.7C384,160,480,192,576,218.7C672,245,768,267,864,245.3C960,224,1056,160,1152,138.7C1248,117,1344,139,1392,149.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+            </path>
+        </svg>
     </section>
     <!-- akhir CTA -->
 
@@ -194,7 +207,9 @@
                             <div class="card">
                                 <div class="card-body">
                                     <h5 class="card-title">AI Automation</h5>
-                                    <p class="card-text">Create smart automation systems using AI to improve workflow efficiency, reduce repetitive tasks, and help businesses make faster, data-driven decisions.</p>
+                                    <p class="card-text">Create smart automation systems using AI to improve workflow
+                                        efficiency, reduce repetitive tasks, and help businesses make faster,
+                                        data-driven decisions.</p>
                                 </div>
                             </div>
                         </div>
@@ -202,7 +217,9 @@
                             <div class="card">
                                 <div class="card-body">
                                     <h5 class="card-title">API Development</h5>
-                                    <p class="card-text">Build secure, scalable, and well-structured APIs that connect applications smoothly and support reliable data communication across platforms.</p>
+                                    <p class="card-text">Build secure, scalable, and well-structured APIs that connect
+                                        applications smoothly and support reliable data communication across platforms.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -210,7 +227,9 @@
                             <div class="card">
                                 <div class="card-body">
                                     <h5 class="card-title">Profesional Consultant</h5>
-                                    <p class="card-text">Provide expert IT consulting to help businesses choose the right technology, optimize system performance, and plan effective digital strategies.</p>
+                                    <p class="card-text">Provide expert IT consulting to help businesses choose the
+                                        right technology, optimize system performance, and plan effective digital
+                                        strategies.</p>
                                 </div>
                             </div>
                         </div>
@@ -218,7 +237,11 @@
                 </div>
             </div>
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f9f7f7" fill-opacity="1" d="M0,192L48,192C96,192,192,192,288,202.7C384,213,480,235,576,213.3C672,192,768,128,864,117.3C960,107,1056,149,1152,181.3C1248,213,1344,235,1392,245.3L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#f9f7f7" fill-opacity="1"
+                d="M0,192L48,192C96,192,192,192,288,202.7C384,213,480,235,576,213.3C672,192,768,128,864,117.3C960,107,1056,149,1152,181.3C1248,213,1344,235,1392,245.3L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+            </path>
+        </svg>
     </section>
     <!-- akhir services -->
 
@@ -252,7 +275,7 @@
                 </div>
             </div>
         </div>
-    </section> 
+    </section>
     <!-- akhir contact -->
 
     <!-- footer -->
@@ -262,6 +285,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
