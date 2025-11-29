@@ -1,15 +1,16 @@
 .jumbotron {
     padding: 2rem;
+    overflow-x: hidden;
 }
 
 body {
     background-color: #132440;
     font-family: 'Poppins';
-    overflow-x: hidden;
 }
 
 #about {
     background-color: #16476A;
+    overflow-x: hidden;
 }
 
 .card {
