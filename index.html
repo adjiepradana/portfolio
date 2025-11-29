@@ -4,109 +4,106 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Web Gabut - Pradana</title>
+    <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="img/icon.jfif" type="image/x-icon">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 
 <body>
-
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg shadow-sm navbar-dark" style="
-    background-color: #112D4E;">
-        <div class="container">
-            <a class="navbar-brand" href="#">Adjie Pradana</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="false"
-                            href="#project">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" role="button" data-bs-toggle="false" href="#services">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
+    <section id="navbar">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #132440;">
+            <div class="container">
+                <a class="navbar-brand" href="#">Adjie P.</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </section>
     <!-- akhir navbar -->
 
     <!-- jumbotron -->
     <section class="jumbotron">
         <div class="container">
-            <div class="jumbotron text-center">
-                <img src="img/hero.jfif" alt="" width="200" class="mb-3 rounded img-thumbnail" data-aos="fade-in">
+            <div class="jumbotron text-center text-white">
+                <img src="img/hero.jfif" alt="hero" width="200" class="rounded img-thumbnail mb-3">
                 <h1 class="display-4">Muhammad Adjie Pradana</h1>
                 <p class="lead">Student | Programmer</p>
             </div>
         </div>
     </section>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="#F9F7F7" fill-opacity="1"
-            d="M0,96L48,112C96,128,192,160,288,144C384,128,480,64,576,80C672,96,768,192,864,208C960,224,1056,160,1152,117.3C1248,75,1344,53,1392,42.7L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+        <path fill="#16476A" fill-opacity="1"
+            d="M0,64L48,80C96,96,192,128,288,144C384,160,480,160,576,144C672,128,768,96,864,74.7C960,53,1056,43,1152,48C1248,53,1344,75,1392,85.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
         </path>
     </svg>
     <!-- akhir jumbotron -->
 
     <!-- about -->
     <section id="about">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col mb-3">
-                    <h2 data-aos="fade-in" data-aos-duration="1000">About</h2>
+        <div class="container text-white text-center">
+            <div class="row mb-3">
+                <div class="col">
+                    <h2>About</h2>
                 </div>
             </div>
-            <div class="row justify-content-center text-center">
-                <div class="col-md-6 fs-5" data-aos="fade-right" data-aos-duration="1500">
+            <div class="row fs-5">
+                <div class="col-md-6">
                     <p>Hello! My name is Adjie, an 18-year-old vocational high school student with a strong interest in
                         programming. I enjoy exploring web development, creating projects, and learning new technologies
                         that help me understand how digital products are built.</p>
                 </div>
-                <div class="col-md-6 fs-5" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="200">
+                <div class="col-md-6">
                     <p>I live in Jagakarsa, South Jakarta, where I spend much of my time practicing coding, building
                         personal projects, and improving my problem-solving skills. I’m excited to keep growing as a
                         developer and work on meaningful ideas in the future.</p>
                 </div>
             </div>
         </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#132440" fill-opacity="1"
+                d="M0,128L48,133.3C96,139,192,149,288,138.7C384,128,480,96,576,106.7C672,117,768,171,864,160C960,149,1056,75,1152,42.7C1248,11,1344,21,1392,26.7L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+            </path>
+        </svg>
     </section>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="#F9F7F7" fill-opacity="1"
-            d="M0,96L48,80C96,64,192,32,288,48C384,64,480,128,576,160C672,192,768,192,864,176C960,160,1056,128,1152,96C1248,64,1344,32,1392,16L1440,0L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
-        </path>
-    </svg>
     <!-- akhir about -->
 
-
-
-    <!-- project -->
-    <section id="project">
-        <div class="container" data-aos="fade-in">
-            <div class="row text-center mb-3">
-                <div class="col">
-                    <h2>My Projects</h2>
+    <!-- projects -->
+    <section id="projects">
+        <div class="container">
+            <div class="row mb-3">
+                <div class="col text-white  text-center">
+                    <h2>Projects</h2>
                 </div>
             </div>
             <div class="row justify-content-center">
                 <div class="col-md-4 mb-3">
                     <div class="card">
-                        <img src="img/projects/project1.jfif" class="card-img-top" alt="...">
+                        <img src="img/projects/project1.jfif" class="card-img-top" alt="website development">
                         <div class="card-body">
                             <h5 class="card-title">Website Development</h5>
                             <p class="card-text">Creating modern, responsive, and user-friendly websites tailored to
@@ -115,20 +112,20 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-3">
+                <div class="col-md-4 mb-4">
                     <div class="card">
-                        <img src="img/projects/project2.jfif" class="card-img-top" alt="...">
+                        <img src="img/projects/project2.jfif" class="card-img-top" alt="website development">
                         <div class="card-body">
-                            <h5 class="card-title">Artificial Inteligence</h5>
+                            <h5 class="card-title">Artificial Intelligence</h5>
                             <p class="card-text">Developing AI-powered solutions for automation, data analysis, and
                                 smarter digital processes.</p>
                             <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-3">
+                <div class="col-md-4 mb-4">
                     <div class="card">
-                        <img src="img/projects/project3.jfif" class="card-img-top" alt="...">
+                        <img src="img/projects/project3.jfif" class="card-img-top" alt="website development">
                         <div class="card-body">
                             <h5 class="card-title">IT Consultant</h5>
                             <p class="card-text">Providing technology consulting to help businesses choose, design, and
@@ -137,22 +134,22 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-3">
+                <div class="col-md-4 mb-4">
                     <div class="card">
-                        <img src="img/projects/project4.jfif" class="card-img-top" alt="...">
+                        <img src="img/projects/project4.jfif" class="card-img-top" alt="website development">
                         <div class="card-body">
-                            <h5 class="card-title">SEO Optimalization</h5>
+                            <h5 class="card-title">SEO Optimization</h5>
                             <p class="card-text">Improving website visibility on search engines through effective and
-                                sustainable SEO techniques. </p>
+                                sustainable SEO techniques.</p>
                             <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-3">
+                <div class="col-md-4">
                     <div class="card">
-                        <img src="img/projects/project5.jfif" class="card-img-top" alt="...">
+                        <img src="img/projects/project5.jfif" class="card-img-top" alt="website development">
                         <div class="card-body">
-                            <h5 class="card-title">Training Coding</h5>
+                            <h5 class="card-title">Coding Training</h5>
                             <p class="card-text">Offering coding training from beginner to advanced levels to help
                                 learners improve their programming skills.</p>
                             <a href="#" class="btn btn-primary">Go somewhere</a>
@@ -162,42 +159,23 @@
             </div>
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path fill=" #F9f7f7" fill-opacity="1"
-                d="M0,160L48,176C96,192,192,224,288,202.7C384,181,480,107,576,117.3C672,128,768,224,864,240C960,256,1056,192,1152,160C1248,128,1344,128,1392,128L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+            <path fill="#16476A" fill-opacity="1"
+                d="M0,32L48,53.3C96,75,192,117,288,154.7C384,192,480,224,576,208C672,192,768,128,864,90.7C960,53,1056,43,1152,58.7C1248,75,1344,117,1392,138.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
             </path>
         </svg>
-
     </section>
-    <!-- akhir project -->
+    <!-- akhir projects -->
 
     <!-- CTA -->
-    <section id="cta">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col">
-                    <h2>Instead working with me?</h2>
-                    <p class="fs-5">Let's build something great</p>
-                    <button type="button" class="btn btn-outline-primary">Download CV</button>
-                    <button type="button" class="btn btn-primary">Hire Me →</button>
-
-                </div>
-            </div>
-        </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path fill="#DBE2EF" fill-opacity="1"
-                d="M0,288L48,261.3C96,235,192,181,288,170.7C384,160,480,192,576,218.7C672,245,768,267,864,245.3C960,224,1056,160,1152,138.7C1248,117,1344,139,1392,149.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
-            </path>
-        </svg>
-    </section>
-    <!-- akhir CTA -->
-
-    <!-- services -->
     <section id="services">
         <div class="container">
-            <div class="row text-center mb-3">
+            <div class="row text-white justify-content-center text-center">
                 <div class="col-md">
-                    <h2><b>Helping Businesses</b> achieve digital transformation through <b>Innovative
-                            Development</b> and <b>Scalable Solutions.</b></h2>
+                    <h2 class="mb-3">Helping Businesses achieve digital transformation through Innovative Development
+                        and Scalable Solutions.</h2>
+                    <p class="mb-3">Turning ideas into powerful digital solutions by combining strategic planning with
+                        cutting-edge
+                        technology, enabling businesses to thrive in the modern digital world.</p>
                 </div>
             </div>
             <div class="row">
@@ -207,7 +185,7 @@
                             <div class="card">
                                 <div class="card-body">
                                     <h5 class="card-title">AI Automation</h5>
-                                    <p class="card-text">Create smart automation systems using AI to improve workflow
+                                    <p class="card-text"> smart automation systems using AI to improve workflow
                                         efficiency, reduce repetitive tasks, and help businesses make faster,
                                         data-driven decisions.</p>
                                 </div>
@@ -226,7 +204,7 @@
                         <div class="col-sm-6">
                             <div class="card">
                                 <div class="card-body">
-                                    <h5 class="card-title">Profesional Consultant</h5>
+                                    <h5 class="card-title">Professional Consultant</h5>
                                     <p class="card-text">Provide expert IT consulting to help businesses choose the
                                         right technology, optimize system performance, and plan effective digital
                                         strategies.</p>
@@ -238,59 +216,66 @@
             </div>
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path fill="#f9f7f7" fill-opacity="1"
-                d="M0,192L48,192C96,192,192,192,288,202.7C384,213,480,235,576,213.3C672,192,768,128,864,117.3C960,107,1056,149,1152,181.3C1248,213,1344,235,1392,245.3L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+            <path fill="#132440" fill-opacity="1"
+                d="M0,32L48,42.7C96,53,192,75,288,106.7C384,139,480,181,576,165.3C672,149,768,75,864,80C960,85,1056,171,1152,181.3C1248,192,1344,128,1392,96L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
             </path>
         </svg>
     </section>
-    <!-- akhir services -->
+    <!-- akhir CTA -->
 
-    <!-- contact -->
-    <section id="contact">
+    <!-- Gallery -->
+    <section id="gallery">
         <div class="container">
             <div class="row text-center">
-                <div class="col">
-                    <h2>Contact</h2>
+                <div class="col mb-3">
+                    <h2>Gallery</h2>
                 </div>
             </div>
-            <div class="row">
-                <div class="col">
-                    <form>
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp">
-                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleInputPassword1" class="form-label">Phone Number</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1">
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
+            <div class="row justify-content-center d-flex">
+                <div class="col-md-4 mb-3">
+                    <img src="img/gallery/gallery1.jfif" class="img-thumbnail" alt="gallery">
+                </div>
+                <div class="col-md-4 mb-3">
+                    <img src="img/gallery/gallery2.jfif" class="img-thumbnail" alt="gallery">
+                </div>
+                <div class="col-md-4 mb-3">
+                    <img src="img/gallery/gallery3.jfif" class="img-thumbnail" alt="gallery">
+                </div>
+                <div class="col-md-4 mb-3">
+                    <img src="img/gallery/gallery4.jfif" class="img-thumbnail" alt="gallery">
+                </div>
+                <div class="col-md-4 mb-3">
+                    <img src="img/gallery/gallery5.jfif" class="img-thumbnail" alt="gallery">
+                </div>
+                <div class="col-md-4 mb-3">
+                    <img src="img/gallery/gallery6.jfif" class="img-thumbnail" alt="gallery">
+                </div>
+                <div class="col-md-4 mb-3">
+                    <img src="img/gallery/gallery7.jfif" class="img-thumbnail" alt="gallery">
+                </div>
+                <div class="col-md-4 mb-3">
+                    <img src="img/gallery/gallery8.jfif" class="img-thumbnail" alt="gallery">
+                </div>
+                <div class="col-md-4">
+                    <img src="img/gallery/gallery9.jfif" class="img-thumbnail" alt="gallery">
                 </div>
             </div>
         </div>
     </section>
-    <!-- akhir contact -->
-
-    <!-- footer -->
-
-    <!-- akhir footer -->
+    <!-- akhir Gallery -->
+    
+    
     <!-- script js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
 
-    <!-- AOS -->
+    <!-- aos js -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
+
 </body>
 
 </html>

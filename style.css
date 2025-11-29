@@ -1,42 +1,66 @@
-body {
-    font-family: 'Poppins';
-    background-color: #DBE2EF;
+.jumbotron {
+    padding: 2rem;
 }
 
-.jumbotron {
-    padding-top: 2rem;
+body {
+    background-color: #132440;
+    font-family: 'Poppins';
 }
 
 #about {
-    background-color: #F9F7F7;   /* sama dengan wave */
-}
-
-svg {
-    display: block;
-}
-
-#contact {
-    background-color: #F9F7F7;
+    background-color: #16476A;
 }
 
 .card {
-    transition: transform .3s ease, box-shadow 0.3s ease;
-    -webkit-transition: transform .3s ease, box-shadow 0.3s ease;
-    -moz-transition: transform .3s ease, box-shadow 0.3s ease;
-    -ms-transition: transform .3s ease, box-shadow 0.3s ease;
-    -o-transition: transform .3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    -webkit-transition: transform 0.3s ease, box-shadow 0.3s ease;
+    -moz-transition: transform 0.3s ease, box-shadow 0.3s ease;
+    -ms-transition: transform 0.3s ease, box-shadow 0.3s ease;
+    -o-transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #1A2A3A;
+    color: white;
+    border: none;
 }
 
 .card:hover {
     transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     -webkit-transform: translateY(-10px);
     -moz-transform: translateY(-10px);
     -ms-transform: translateY(-10px);
     -o-transform: translateY(-10px);
-    box-shadow: 0 10px 20px rgba (0, 0, 0, 0.2);
 }
 
-#cta {
-    background-color: #F9F7F7;
+.btn-primary {
+    background-color: #16476A;
 }
 
+.btn-primary:hover {
+    background-color: #BF092F;
+    border: none;
+}
+
+#services {
+    background-color: #16476A;
+}
+
+#services p {
+    color: #7A8896;
+}
+
+#gallery {
+    color: #ffffff;
+}
+
+
+
+.img-thumbnail {
+    border: 1px solid #6a00ff;
+    box-shadow: 0 0 13px #6a00fa;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
