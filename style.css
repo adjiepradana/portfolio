@@ -5,6 +5,7 @@
 body {
     background-color: #132440;
     font-family: 'Poppins';
+    overflow-x: hidden;
 }
 
 #about {
@@ -53,14 +54,23 @@ body {
     color: #ffffff;
 }
 
-
-
-.img-thumbnail {
-    border: 1px solid #6a00ff;
-    box-shadow: 0 0 13px #6a00fa;
+#gallery .img-thumbnail {
     border-radius: 12px;
     -webkit-border-radius: 12px;
     -moz-border-radius: 12px;
     -ms-border-radius: 12px;
     -o-border-radius: 12px;
+    border: 1px solid #6a00ff;
+    box-shadow: 0 0 13px #6a00fa;
 }
+
+#contact {
+    background-color: #16476A;
+}
+
+#contact .btn-primary {
+    background-color: #BF092F;
+    color: #ffffff;
+    border: none;
+}
+
