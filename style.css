@@ -1,25 +1,11 @@
 body {
     background-color: #132440;
     font-family: 'Poppins';
-    overflow-x: hidden;
-}
-/* style.css */
-
-/* FIX AOS DENGAN ANIMASI HORIZONTAL */
-/* Mencegah konten di dalam section dianggap lebih lebar dari 100% saat animasi start */
-[data-aos].aos-animate {
-    transform: translate3d(0, 0, 0) !important;
 }
 
-/* Pastikan elemen AOS tidak mempengaruhi lebar parent container */
-[data-aos] {
-    /* Mencegah animasi mempengaruhi lebar halaman */
-    max-width: 100%;
-}
 .jumbotron {
     padding: 2rem;
 }
-
 
 #about {
     background-color: #16476A;
